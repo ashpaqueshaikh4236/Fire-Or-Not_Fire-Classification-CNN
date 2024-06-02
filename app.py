@@ -26,7 +26,6 @@ if uploaded_image is not None:
     preprocessed_image = preprocess_image(image)
 
     prediction = model.predict(preprocessed_image)
-    st.write(prediction)
 
     if prediction[0][0] > 0.5:
         st.success('Prediciton: There is no a fire')
