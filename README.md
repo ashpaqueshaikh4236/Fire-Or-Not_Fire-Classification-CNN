@@ -1,1 +1,1 @@
-# Fire-Or-Not_Fire-Classification-CN
+# Fire-Or-Not_Fire-Classification-CNN
